@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+.hh .row{
+    display: flex;
+    justify-content: center;
+}
+.hh img{
+    max-width: 320px;
+
+}
+.tt{
+    background: rgba(100,100,100);
+}
+.tt .col{
+    display: flex;
+    justify-content: center;
+}
+.tt a{
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Gorditas', cursive;
+}
+/*home*/
+.aa{
+    background-image: url(./img/draws.jpg);
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a1{
+    background: rgba(0,0,0,0.2);
+    
+}
+.a1 p{
+    color: rgba(255,255,255);
+    font-family: 'Lobster', cursive;
+}
+/*link*/
+.bb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.nn ul li{
+    margin: 10px;
+}
+.nn{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media (min-width: 768px){
+    .nn ul li{
+        flex-basis: 45%;
+        flex-grow: 1;
+        
+    }   
+}
+@media (min-width: 1200px){
+    .nn ul li{
+        flex-basis: 30%;
+        flex-grow: 1;
+    }   
+}*/
+
+
+
