@@ -78,11 +78,14 @@
     background: rgba(0,0,0,1);
 }
 .cc{
-   background: rgba(0,0,0); 
+   background: rgba(50,50,0,0.2); 
     color: rgba(230,230,230,1);
 }
+.c1{
+    background: rgba(0,0,0);     
+}
 .cc iframe{
-    
+    width: 100%;
 }
 
 
