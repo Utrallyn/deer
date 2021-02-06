@@ -45,11 +45,7 @@
     font-family: 'Lobster', cursive;
 }
 /*link*/
-.zb{
-    height: 10px;
-    width: 100%;
-    background: rgba(50,50,0,0.2);
-}
+
 .bb{
     background: rgba(50,50,0,0.2);
     display: flex;
@@ -61,7 +57,7 @@
 }
 .bb li{
     text-align: center;
-    margin-bottom: 10px;
+    margin: 8px 0;
     background: rgba(240,240,240);
     padding: 10px;
 }
@@ -72,20 +68,24 @@
     border-radius: 11px;
 }
 /*video*/
-.zc{
-    height: 10px;
-    width: 100%;
-    background: rgba(0,0,0,1);
-}
+
 .cc{
-   background: rgba(50,50,0,0.2); 
+    background: rgba(50,50,0,0.2); 
     color: rgba(230,230,230,1);
+
 }
 .c1{
-    background: rgba(0,0,0);     
+    background: rgba(0,0,0);
+    border-radius: 9px;
+    padding: 8px 0;
+    margin: 8px 0;     
 }
-.cc iframe{
+.c1 iframe{
     width: 100%;
+}
+.c2{
+    margin-left: 17px;
+    min-height: auto;  
 }
 
 
