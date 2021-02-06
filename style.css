@@ -11,8 +11,6 @@
 }
 .tt{
     background: rgba(100,100,100);
-    margin-bottom: 10px;
-    box-shadow:0 10px 10px rgba(50,50,0,0.4);
 }
 .tt .col{
     display: flex;
@@ -25,6 +23,11 @@
     font-family: 'Gorditas', cursive;
 }
 /*home*/
+.za{
+    height: 10px;
+    width: 100%;
+    background: rgba(50,50,0,0.2);
+}
 .aa{
     background-image: url(./img/draws.jpg);
     background-size: cover;
@@ -42,6 +45,11 @@
     font-family: 'Lobster', cursive;
 }
 /*link*/
+.zb{
+    height: 10px;
+    width: 100%;
+    background: rgba(50,50,0,0.2);
+}
 .bb{
     background: rgba(50,50,0,0.2);
     display: flex;
@@ -63,7 +71,19 @@
     max-height: 230px;
     border-radius: 11px;
 }
-
+/*video*/
+.zc{
+    height: 10px;
+    width: 100%;
+    background: rgba(0,0,0,1);
+}
+.cc{
+   background: rgba(0,0,0); 
+    color: rgba(230,230,230,1);
+}
+.cc iframe{
+    
+}
 
 
 
