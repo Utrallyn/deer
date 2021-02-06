@@ -23,7 +23,6 @@
     font-family: 'Gorditas', cursive;
 }
 /*home*/
-
 .aa{
     background-image: url(./img/pps.jpg);
     background-size: cover;
@@ -34,28 +33,22 @@
 }
 .a1{
     text-align: center;
-    margin-top: 10  7px;
+    padding-bottom: 174px;
 }
 .a1 h2, .a1 p{
     color: rgba(255,255,255);
     font-family: 'Lobster', cursive;
     font-size: 20px;
-    padding: 3px;
     margin:9px 3px ;
     text-shadow: 1px 1px 7px rgba(0,0,0);
 }
 .a1 a{
     font-size: 30px;
     font-family: 'Lobster', cursive;
-    padding: 4px;
-    margin-top: 50px;
     color: rgba(255,255,255,1);
     text-shadow: 2px 2px 9px rgba(0,0,0);
-    
-    
 }
 /*link*/
-
 .bb{
     background: rgba(50,50,0,0.2);
     display: flex;
@@ -64,6 +57,8 @@
 .bb ul{
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 .bb li{
     text-align: center;
@@ -78,7 +73,6 @@
     border-radius: 11px;
 }
 /*video*/
-
 .cc{
     background: rgba(50,50,0,0.2); 
     color: rgba(230,230,230,1);
@@ -98,35 +92,68 @@
     min-height: auto;  
 }
 
-
-
-/*ul{
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-.nn ul li{
-    margin: 10px;
-}
-.nn{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-@media (min-width: 768px){
-    .nn ul li{
-        flex-basis: 45%;
-        flex-grow: 1;
-        
-    }   
-}
-@media (min-width: 1200px){
-    .nn ul li{
+/* rwd */
+@media(min-width:768px){
+    
+    .hh {
+        max-width: 1980px !important; 
+    }
+    /*home*/
+    .aa{
+        background-image: url(./img/ppb.jpg);
+        min-height: 760px;
+    }
+    .a1{
+        padding-bottom: 227px;
+    }
+    .a1 h2, .a1 p{
+        font-size: 40px;
+        margin:14px 0px ;
+        text-shadow: 2px 2px 10px rgba(0,0,0);
+    }
+    .a1 a{
+        font-size: 60px;
+        text-shadow: 3px 3px 11px rgba(0,0,0);
+    }
+    /*link*/
+    .bb li{
+        margin: 18px 8px;
+        padding: 13px;
         flex-basis: 30%;
         flex-grow: 1;
-    }   
-}*/
+    }
+    .bb img{
+        width: 100%;
+        max-height: 330px;
+        border-radius: 17px;
+    }
+
+    /*video*/
+    .cc{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .c1{
+        min-width: 960px;
+        height: auto;
+        background: rgba(0,0,0);
+        border-radius: 21px;
+        padding: 23px 0;
+        margin: 16px 0;     
+    }
+    .c1 iframe{
+        min-height: 540px;
+    }
+    .c2{
+        margin-left: 27px;
+    }
+
+}
+
+
+
 
 
 
