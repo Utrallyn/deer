@@ -25,20 +25,26 @@
 /*home*/
 
 .aa{
-    background-image: url(./img/draws.jpg);
+    background-image: url(./img/pps.jpg);
     background-size: cover;
-    min-height: 300px;
+    min-height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .a1{
-    background: rgba(0,0,0,0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
-.a1 p{
+.a1 h2, .a1 p{
     color: rgba(255,255,255);
     font-family: 'Lobster', cursive;
+    font-size: 20px;
+    padding: 3px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 7px rgba(0,0,0);
 }
 /*link*/
 
