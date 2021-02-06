@@ -23,11 +23,7 @@
     font-family: 'Gorditas', cursive;
 }
 /*home*/
-.za{
-    height: 10px;
-    width: 100%;
-    background: rgba(50,50,0,0.2);
-}
+
 .aa{
     background-image: url(./img/draws.jpg);
     background-size: cover;
