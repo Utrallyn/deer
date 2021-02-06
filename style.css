@@ -41,10 +41,27 @@
 }
 /*link*/
 .bb{
+    background: rgba(50,50,0,0.2);
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
+.bb ul{
+    list-style: none;
+    padding: 0;
+}
+.bb li{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bb img{
+    width: 100%;
+    max-width: 500px;
+    max-height: 230px;
+}
+
+
+
+
 /*ul{
     margin: 0px;
     padding: 0px;
