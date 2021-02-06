@@ -11,6 +11,8 @@
 }
 .tt{
     background: rgba(100,100,100);
+    margin-bottom: 10px;
+    box-shadow:0 10px 10px rgba(50,50,0,0.4);
 }
 .tt .col{
     display: flex;
@@ -52,11 +54,14 @@
 .bb li{
     text-align: center;
     margin-bottom: 10px;
+    background: rgba(240,240,240);
+    padding: 10px;
 }
 .bb img{
     width: 100%;
     max-width: 500px;
     max-height: 230px;
+    border-radius: 11px;
 }
 
 
