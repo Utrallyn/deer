@@ -4,6 +4,10 @@
 body{
     background: rgb(242,246,247) !important;
 }
+.ffix{
+    position: fixed;
+    z-index: 1;
+}
 .hh .row{
     display: flex;
     justify-content: center;
@@ -24,6 +28,10 @@ body{
     color: aliceblue;
     text-decoration: none;
     font-family: 'Gorditas', cursive;
+}
+.hd{
+    height: 55px;
+    background: rgba(50,50,0,0.2);
 }
 /*home*/
 .aa{
@@ -101,6 +109,13 @@ body{
     .hh {
         max-width: 1980px !important; 
     }
+    .tt{
+        padding: 10px 0;
+    }
+    .hd{
+        height: 75px;
+    }
+
     /*home*/
     .aa{
         background-image: url(./img/ppb.jpg);
